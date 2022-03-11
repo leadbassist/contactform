@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- use formSubmit https://formsubmit.co/ -->
+    <form action="https://formsubmit.co/leadbassist@live.com" method="POST">
+        <!-- make sure the user puts his/her email address -->
+        <input type="email" name="email" placeholder="Email Address">
+        <!-- add a subject field -->
+        <input type="hidden" name="_subject" value="subject....">
+        <!-- redirect the THANK YOU page to your personalized domain/webpage -->
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        <input type="text" name="name" placeholder="write your msg here" required>
+        <!-- comment it out as its duplicated -->
+        <!-- <input type="email" name="email" required> -->
+        <button type="submit">Send</button>
+   </form>
+
+</body>
+</html>
